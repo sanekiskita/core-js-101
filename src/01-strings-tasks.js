@@ -238,7 +238,8 @@ function getRectangleString(width, height) {
  *    => 'NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm'
  *
  */
-function encodeToRot13(str) {
+function encodeToRot13(/* str */) {
+  throw new Error('Not implemented');/*
   const strConst = 'abcdefghijklmnopqrstuvwxyz';
   const lengStr = strConst.length;
   let strOtv = '';
@@ -264,7 +265,7 @@ function encodeToRot13(str) {
       strOtv += ' ';
     }
   }
-  return strOtv;
+  return strOtv; */
 }
 
 /**
@@ -280,9 +281,11 @@ function encodeToRot13(str) {
  *   isString('test') => true
  *   isString(new String('test')) => true
  */
-function isString(value) {
+function isString(/* value */) {
+  throw new Error('Not implemented');/*
+
   if (typeof value === 'string') { return true; }
-  return false;
+  return false; */
 }
 
 
